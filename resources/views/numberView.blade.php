@@ -6,7 +6,7 @@
   </head>
   <body>
     <p>
-      @for ($i=0; $i < 100; $i++)
+      @for ($i=1; $i < 100; $i++)
         @if ($i%5==0&&$i%3==0)
           {{ $multiples . '  '}}
         @elseif ($i%3==0)
